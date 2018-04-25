@@ -34,7 +34,7 @@
         "#008cff"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/favicon-atlantis-64x64.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-atlantis2-64x64.png",
     "noImageResize": "",
     "google-analytics": "",
     "versionFirst": "4.7.1",
