@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Atlantis Gentlemen's Club - Chicago",
-    "currentPage": "menu.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1480,7 +1480,7 @@
               "background-image": "url(@bg-value)"
             },
             "H2": {
-              "color": "#008cff"
+              "color": "#ff3366"
             }
           },
           "_name": "content5",
