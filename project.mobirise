@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Atlantis Gentlemen's Club - Chicago",
+    "name": "Atlantis Gentlemen's Club - Chicago-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -39,7 +39,7 @@
     "google-analytics": "",
     "versionFirst": "4.7.1",
     "uniqCompNum": 97,
-    "versionPublish": "4.7.1",
+    "versionPublish": "4.7.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "siteUrl": "http://atlantischicago.com",
