@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Atlantis Gentlemen's Club - Chicago-clone",
-    "currentPage": "index.html",
+    "currentPage": "menu.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
     "noImageResize": "",
     "google-analytics": "",
     "versionFirst": "4.7.1",
-    "uniqCompNum": 97,
+    "uniqCompNum": 103,
     "versionPublish": "4.7.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -1791,6 +1791,39 @@
           "_params": {}
         },
         {
+          "_params": {
+            "token": "",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": 4,
+            "rows": 2,
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": 5,
+            "fullWidth": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColorRadio": false,
+            "bgColor": "#fafafa",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Instagram Feed",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-2p"
+        },
+        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -1926,7 +1959,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -3636,7 +3669,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -3756,7 +3789,7 @@
             }
           },
           "_name": "header9",
-          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dining-area-2000x1339.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ff3366\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Some samples from our menu include:\n<br></h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">The Dining Room</h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Appetizers: Bruschetta • Fried Calamari • Calamari Diablo • Baked Clams • Sausage &amp; Peppers • Shrimp Cocktail \n<br>\n<br>Entrees: Chicken Parmesan • Chicken Picatta • Chicken Marsala • Grilled Swordfish • Tilapia Pizzaiola • Lobster Tail \n<br>Pastas: Alfredo • Bolognese • Vodka • Arrabiatta • Basilico • Shrimp &amp; Broccoli • Vongole \n<br>From Our Grill: Filet Mignon • New York Strip • Porterhouse • Pork Chops Oreganato <br><br><b>The Dining Room\n<br></b>Monday 5:00pm – 1:00am\n<br>Tuesday – Thursday 3:00pm – 3:00am\n<br>Friday 3:00pm – 3:30am*\n<br>Saturday 7:00pm – 3:30am*\n<br>* Breakfast served Friday and Saturday 3:30am – 4:45am\n<br>\n<br>ATLANTIS also offers fine dining that includes a selection of exquisite flavors from the appetizers to the scrumptious desserts and everything in between! Guests may dine on the main floor, at the bar, or in any of our ATLANTIS suites and may have the company of the entertainer of your choice.\n<br><br>Exclusive Bottle Service Seating\n<br>These seating areas are “reserved” sections outlining the Main Floor and have been designed as ‘Bottle Service areas’. Each area has custom booth seating with ultra plush pillows and is two steps above the main floor and is defined with brass rail and glass specially designed for a more private area for you and your party.<br><br>\n            </p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"trip-club-chicago-services-and-amenities.html\">ABOUT US</a>\n                <a class=\"btn btn-md btn-warning-outline\" href=\"strip-club-chicago-tour.html\">VIRTUAL TOUR</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dining-area-2000x1339.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ff3366\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Introducing Atlantis Cuisine Experience<br></h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Fine dining in a sophisticated atmosphere</h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>Our Sample Menu<br></b>Appetizers: Bruschetta • Fried Calamari • Calamari Diablo • Baked Clams • Sausage &amp; Peppers • Shrimp Cocktail \n<br>\n<br>Entrees: Chicken Parmesan • Chicken Picatta • Chicken Marsala • Grilled Swordfish • Tilapia Pizzaiola • Lobster Tail<br> \n<br>Pastas: Alfredo • Bolognese • Vodka • Arrabiatta • Basilico • Shrimp &amp; Broccoli • Vongole \n<br>From Our Grill: Filet Mignon • New York Strip • Porterhouse • Pork Chops Oreganato <br><br><b>The Dining Room\n<br></b>Monday 5:00pm – 1:00am\n<br>Tuesday – Thursday 3:00pm – 3:00am\n<br>Friday 3:00pm – 3:30am*\n<br>Saturday 7:00pm – 3:30am*\n<br>* Breakfast served Friday and Saturday 3:30am – 4:45am\n<br>\n<br>ATLANTIS also offers fine dining that includes a selection of exquisite flavors from the appetizers to the scrumptious desserts and everything in between! Guests may dine on the main floor, at the bar, or in any of our ATLANTIS suites and may have the company of the entertainer of your choice.\n<br><br>Exclusive Bottle Service Seating\n<br>These seating areas are “reserved” sections outlining the Main Floor and have been designed as ‘Bottle Service areas’. Each area has custom booth seating with ultra plush pillows and is two steps above the main floor and is defined with brass rail and glass specially designed for a more private area for you and your party.<br><br>\n            </p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"trip-club-chicago-services-and-amenities.html\">ABOUT US</a>\n                <a class=\"btn btn-md btn-warning-outline\" href=\"strip-club-chicago-tour.html\">VIRTUAL TOUR</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qQeCmJU2mM",
           "_anchor": "header9-29",
           "_protectedParams": [],
@@ -5346,7 +5379,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -7056,7 +7089,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
