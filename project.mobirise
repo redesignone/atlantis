@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Atlantis Gentlemen's Club - Chicago-clone",
-    "currentPage": "index.html",
+    "currentPage": "gallery.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9179,6 +9179,58 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/30077047-947083435448725-4490329492685848576-n-640x640.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/30077047-947083435448725-4490329492685848576-n-640x640-640x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/28764766-1643868479030404-4749835548468707328-n-640x640.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/28764766-1643868479030404-4749835548468707328-n-640x640-640x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/28751341-337549640085669-1808413434727890944-n-640x640.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/28751341-337549640085669-1808413434727890944-n-640x640-640x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/28763298-199754453953947-5633063201722597376-n-406x406.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/28763298-199754453953947-5633063201722597376-n-406x406-406x406.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1941294-556424497840812-1467310900-a-150x150.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1941294-556424497840812-1467310900-a-150x150-150x150.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
