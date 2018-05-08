@@ -22,10 +22,10 @@
         "display7Font": "Rubik",
         "display7Size": 1,
         "display4Font": "Rubik",
-        "display4Size": 1,
-        "isRoundedButtons": true,
+        "display4Size": "0.9",
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": [
         "#000000",
